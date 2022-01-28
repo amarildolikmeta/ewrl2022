@@ -3,13 +3,14 @@ description: > # this means to ignore newlines until "baseurl:"
   Your description
 baseurl: "/ewrl2022" # the subpath of your site, e.g. /blog
 url: "https://amarildolikmeta.github.io" # the base hostname & protocol for your site
+root: /ewrl2022
 # Build settings
 markdown: kramdown
 
 facebook:
   app_id: 
 
-logo: "../css/2016_style/img/icon-large.png"
+logo: "{{ base_url }}/css/2016_style/img/icon-large.png"
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
